@@ -1,0 +1,85 @@
+:root{
+    --primary-color: #7c3aed;
+    --dary-grey: #64748b;
+    --off-white: #f3f4f6;
+    --secondary-color:#ddd6fe;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    text-align: center;
+    background-color: var(--secondary-color);
+}
+
+.heading{
+    background-color: var(--primary-color);
+    text-align: left;
+    padding-top: 1px;
+    color: var(--off-white);
+}
+
+.heading h1{
+    padding-left: 100px;
+    padding-bottom: 10px;
+    text-decoration:overline ;
+}
+nav{
+    
+    text-align: end;
+    /* padding: 1rem; */
+}
+nav a{
+    color: var(--off-white);
+    text-decoration: none;
+    padding: 3rem;
+}
+h2{
+    padding: 5px;
+    font-size:30px;
+}
+
+label[for="angle1"]{
+    display: block;
+    padding: 1rem;
+}
+.angle-input{
+    display: block;
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+    width: 250px;
+}
+#is-triangle-btn{
+    padding: 10px;
+    margin-top: 25px;
+    font-family:'Montserrat', sans-serif;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    color: var(--off-white);
+    font-weight: bold;
+}
+#output{
+    padding-top: 25px;
+    font-size: x-large;
+}
+.quiz-form{
+}
+
+.question-container{
+    max-width: 500px;
+    border: 2px solid var(--dary-grey);
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+/* -------------------Hypotenuse--------------- */
+
+.hyp-div{
+    display: block;
+}
+
+
