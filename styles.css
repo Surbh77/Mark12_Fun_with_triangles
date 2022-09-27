@@ -2,13 +2,14 @@
     --primary-color: #7c3aed;
     --dary-grey: #64748b;
     --off-white: #f3f4f6;
-    --secondary-color:#ddd6fe;
+    --secondary-color:#21205a;
 }
 body{
     font-family: 'Montserrat', sans-serif;
     margin: auto;
     text-align: center;
     background-color: var(--secondary-color);
+    color: var(--off-white);
 }
 
 .heading{
@@ -24,14 +25,14 @@ body{
     text-decoration:overline ;
 }
 nav{
-    
     text-align: end;
-    /* padding: 1rem; */
 }
 nav a{
     color: var(--off-white);
     text-decoration: none;
     padding: 3rem;
+    font-size: x-large;
+    font-weight: bold;
 }
 h2{
     padding: 5px;
@@ -41,6 +42,7 @@ h2{
 label[for="angle1"]{
     display: block;
     padding: 1rem;
+    font-weight: bold;
 }
 .angle-input{
     display: block;
@@ -50,17 +52,26 @@ label[for="angle1"]{
     width: 250px;
 }
 #is-triangle-btn{
-    padding: 10px;
+    padding: 20px;
     margin-top: 25px;
     font-family:'Montserrat', sans-serif;
     border-radius: 10px;
     background-color: var(--primary-color);
     color: var(--off-white);
-    font-weight: bold;
+    /* font-weight: bold; */
+    font-size: large;
 }
 #output{
-    padding-top: 25px;
+    padding: 25px;
     font-size: x-large;
+    border: 2px solid var(--dary-grey);
+    max-width:400px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: var(--off-white);
+    min-height: 100px;
+    color: black;
 }
 .quiz-form{
 }
@@ -76,10 +87,84 @@ label[for="angle1"]{
     border-radius: 15px;
 }
 
-/* -------------------Hypotenuse--------------- */
-
-.hyp-div{
-    display: block;
+#submit-answer-btn{
+    border: 2px solid var(--dary-grey);
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    color: var(--off-white);
+    padding: 20px;
+    font-size: large;
 }
 
 
+/* -------------------Hypotenuse--------------- */
+
+.formula{
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    /* padding: ; */
+    width: fit-content;
+    margin: auto;
+}
+.hyp-div{
+    display:grid;
+    max-width: 400px;
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+}
+.hyp-div label{
+    padding: 1rem;
+    font-weight: bold;
+} 
+.hyp-div input{
+    padding: 8px;
+    border: 2px solid var(--dary-grey);
+    border-radius: 10px;
+}
+
+.hyp-div button{
+    padding: 20px;
+    margin: auto;
+    border: 2px solid var(--dary-grey);
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    color: var(--off-white);
+    width: fit-content;
+    margin-top: 20px;
+    font-size: large;
+}
+
+
+/* ----area of triangle--- */
+.area-div{
+    max-width: 300px;
+    /* display: block; */
+    margin: auto;
+    margin-top: 50px;
+    /* padding-top: 50px; */
+}
+
+.area-div label{
+    font-weight: bold;
+}
+
+.area-div input{
+    padding: 12px;
+    border: 2px solid var(--dary-grey);
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#area-btn{
+    padding: 20px;
+    margin: auto;
+    border: 2px solid var(--dary-grey);
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    color: var(--off-white);
+    width: fit-content;
+    margin-top: 20px;
+    font-size: large;
+}
